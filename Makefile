@@ -19,6 +19,6 @@ build:
 huge:
 	@rm -rf public
 	@POST_COUNT=5000 node generate-posts.js
-	@gtime -v gatsby build
+	@gtime -v node --max-old-space-size=8192 node_modules/.bin/gatsby build
 
 .PHONY: setup new old rebuild build huge
