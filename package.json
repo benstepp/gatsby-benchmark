@@ -1,0 +1,18 @@
+{
+  "name": "gatsby-benchmark",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Benjamin Stepp <me@benstepp.com> (https://fightingdragonswithtaylorswift.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "faker": "^3.1.0",
+    "gatsby": "^0.11.0",
+    "lodash": "^4.13.0",
+    "moment": "^2.13.0"
+  }
+}
